@@ -1,8 +1,8 @@
-/* fetch('https://raw.githubusercontent.com/Rajavasanthan/jsondata/master/pagenation.json')
+ fetch('https://raw.githubusercontent.com/Rajavasanthan/jsondata/master/pagenation.json')
   .then((data) => {return data.json();
                  console.log(data.json());
                 })
-  .then((users)=>loadusers(users)) */
+  .then((users)=>loadusers(users)) 
   const buttons=document.createElement("div")
 
 function loadusers(users){
