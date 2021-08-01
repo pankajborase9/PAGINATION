@@ -1,0 +1,49 @@
+body{
+height:100vh;
+background-color: blanchedalmond;
+display: flex;
+flex-direction:column;
+align-content: center;
+align-items: center;
+}
+.container{
+    width:100%;  
+    height: 120%;
+    background-color: grey;
+    margin: 10px;
+    border-radius:30%; 
+    display: flex;
+   flex-direction: row;
+   align-content: center;
+    align-items: center;
+
+}
+.basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+.id{
+border-radius: 50% ;
+height:50px;
+width: 50px;
+background-color: cyan;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.email{
+    margin:0%;
+}
+.button112{
+
+    background-color: hotpink;
+}
